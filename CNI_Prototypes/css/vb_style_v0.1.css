@@ -137,8 +137,6 @@ p {font-size: 14px; line-height: 18px;}
 
 /* ----------------- Footers  ----------- */
 
-.footers {margin-top: 40px;}
-
 
 
 
@@ -183,13 +181,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 
 /* Promts Globals */
-.prompts { background-color: #ffffff; text-align: center;}
+.prompts { background-color: #ffffff; text-align: center; margin-bottom: 40px;}
 
 
 
 /* ----------------- Newsletter Slice  ----------- */
 
-.newsletterSliceFixed   {position: relative; z-index: 100; display: inline-block; width: 100%;}
+.newsletterSliceFixed   {position: relative; z-index: 100; display: inline-block; width: 100%; border-bottom: 1px solid #ffffff;}
 .newsletterSlice        {position:relative; display: inline-block; width: 100%;}
 .newsletterForm			{display: inline-block; width:100%;}
 
