@@ -137,7 +137,6 @@ p {font-size: 14px; line-height: 18px;}
 
 /* ----------------- Footers  ----------- */
 
-.footers {margin-top: 40px;}
 
 
 
@@ -156,7 +155,7 @@ p {font-size: 14px; line-height: 18px;}
 
 /* ----------------- Riser Global Settings  ----------- */
 
-.riserFixedBottom   {position: fixed; z-index: 100; bottom: 0; display: inline-block; width: 100%;}
+.riserFixedBottom   {position: fixed; z-index: 100; bottom: 0; display: inline-block; width: 100%; border-top:1px solid #ffffff;}
 
 .riserButton 	    {width: 56px; height: 56px; position: absolute; right: 0px !important;  float: right; z-index: 101; cursor: pointer;}
 .riserButtonArrow   {background: url("../img-global/furniture/up-down-arrow.png") no-repeat center center; background-size: 14px 8px; border: none!important; z-index: 100;}
@@ -182,9 +181,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 
 
-/* Promts Globals */
-.prompts { background-color: #ffffff; text-align: center;}
-
+/* Prompts Globals */
+.prompts { background-color: #ffffff; text-align: center; margin-bottom: 40px;}
 
 
 /* ----------------- Newsletter Slice  ----------- */
