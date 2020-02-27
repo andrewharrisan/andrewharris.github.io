@@ -165,6 +165,8 @@ p 	  {font-size: 14px; line-height: 18px; margin-bottom: 8px;}
 .cookie-box {background-color: #FFFFFF; position: fixed; z-index: 201; padding:24px;}
 .cookie-box button {padding: 16px 32px; background-color: #306EE8; color: #ffffff; position: absolute; bottom: 60px; left: 42%}
 
+.cookie-box button:visited {color: #ffffff;}
+
 .hidden {display: none;}
 
 
