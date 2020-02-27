@@ -172,6 +172,7 @@ and (min-width : 1400px)
 	 
 }
 		
-	
+	.fullBleed   {width : 100%;} /* This adds left and right margins. */ 	 
+
 	
 

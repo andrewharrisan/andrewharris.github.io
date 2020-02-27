@@ -148,7 +148,7 @@ p 	  {font-size: 14px; line-height: 18px; margin-bottom: 8px;}
 
 /* ----------------- Footers  ----------- */
 
-
+.footers {background-color: #242526; border-top: 2px #FFFFFF solid;}
 
 
 
@@ -170,7 +170,7 @@ p 	  {font-size: 14px; line-height: 18px; margin-bottom: 8px;}
 
 /* ----------------- Riser Global Settings  ----------- */
 
-.riserFixedBottom   {position: fixed; z-index: 100; bottom: 0; display: inline-block; width: 100%; border-top: 1px solid #FFFFFF;}
+.riserFixedBottom   {position: fixed; z-index: 100; bottom: 0; display: inline-block; width: 100%; border-top: 1px solid #999;}
 
 .riserButton 	    {width: 56px; height: 56px; position: absolute; right: 0px !important;  float: right; z-index: 101; cursor: pointer;}
 .riserButtonArrow   {background: url("../img-global/furniture/up-down-arrow.png") no-repeat center center; background-size: 14px 8px; border: none!important; z-index: 100;}
@@ -178,10 +178,10 @@ p 	  {font-size: 14px; line-height: 18px; margin-bottom: 8px;}
 
 
 .thinRiserHide, .thinRiserHide p   {height: 0px !important; line-height: 0 !important; display: none;}
-.thinRiserShow   {height: 56px; display: block; transition: all 0.15s ease; text-align: left;}
+.thinRiserShow   {height: 56px; display: block; transition: all 0.15s ease; text-align: left; background-color: #6C6E70;}
 
 .bigRiserHide   {transition: all 0.25s ease;}
-.bigRiserShow   {transition: all 0.25s ease; z-index: 100; text-align: left;}
+.bigRiserShow   {transition: all 0.25s ease; z-index: 100; text-align: left; background-color: #2D2E2F;}
 
 
 
@@ -377,7 +377,9 @@ and (min-width : 1400px)  {
 	
 	
 /* Riser Styling */	
-.riserFixedBottom {width: 1400px; left: 50%; transform: translate(-50%, 0);}
+/* .riserFixedBottom {width: 1400px; left: 50%; transform: translate(-50%, 0);} */
+.riserFixedBottom {width: 100%;}
+	
 .thinRiserShow p  {padding: 20px 70px 12px 70px;}		
 .bigRiserShow img {width: 1400px !important;}
 	
