@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="utf-8" />
-<title>VB - Riser Prototype 1</title>
+<title>VB Riser Prototype 1</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
 <!-- CSS -->
@@ -54,14 +54,14 @@ START CONTENT HERE
 			
 			
 	<div class="riserFixedBottom" align="center">
-			<button class="riserButton riserButtonArrow" onclick="riserToggle()"></button>
-			<div class="thinRiserShow"><p class="white">Access unlimited Vogue Business content by creating a free account or by logging in.</p></div>
-		    <div class="bigRiserHide bg-grey-1">
-		 		    <img class="small" src="img/risers/375-bigRiser.png" width="auto" height="auto" alt=""/> 
-					<img class="medium" src="img/risers/600-bigRiser.png" width="auto" height="auto" alt=""/> 
-					<img class="large" src="img/risers/980-bigRiser.png" width="auto" height="auto" alt=""/> 
-					<img class="x-large" src="img/risers/1200-bigRiser.png" width="auto" height="auto" alt=""/> 
-					<img class="xx-large" src="img/risers/1400-bigRiser.png" width="auto" height="auto" alt=""/> 
+			<button class="riserButton riserButtonArrow riserButtonArrowUp" onclick="riserToggle()"></button>
+			<div class="thinRiserHide"><p class="white">Access unlimited Vogue Business content by creating a free account or by logging in.</p></div>
+		    <div class="bigRiserShow bg-grey-1">
+		 		    <img class="small" src="img/risers/375-bigRiser.png" width="auto" height="auto" alt="VB Reg Riser"/> 
+					<img class="medium" src="img/risers/600-bigRiser.png" width="auto" height="auto" alt="VB Reg Riser"/> 
+					<img class="large" src="img/risers/980-bigRiser.png" width="auto" height="auto" alt="VB Reg Riser"/> 
+					<img class="x-large" src="img/risers/1200-bigRiser.png" width="auto" height="auto" alt="VB Reg Riser"/> 
+					<img class="xx-large" src="img/risers/1400-bigRiser.png" width="auto" height="auto" alt="VB Reg Riser"/> 
 			</div>
 	</div>		
 	
@@ -69,15 +69,15 @@ START CONTENT HERE
 	<script>		
 	  var button 	 = $(".riserButton");
 	  var buttonArrow = $(".riserButtonArrow");
-	  var thinRiser  = $(".thinRiserShow");
-	  var bigRiser    = $(".bigRiserHide");
+	  var thinRiser  = $(".thinRiserHide");
+	  var bigRiser    = $(".bigRiserShow");
 	
 button.on("click", function() {
 	"use strict";
  // thinRiser.toggleClass("riserShow").addClass("riserHide");
 	buttonArrow.toggleClass("riserButtonArrowUp");
-    thinRiser.toggleClass("thinRiserHide");
-	bigRiser.toggleClass("bigRiserShow");
+    thinRiser.toggleClass("thinRiserShow").toggleClass("thinRiserHide");
+	bigRiser.toggleClass("bigRiserHide").toggleClass("bigRiserShow");
 });
 </script>
 <!-- // Metered Riser Fixed to Bottom of page -->				
@@ -89,14 +89,14 @@ button.on("click", function() {
   <!-- ************************ HEADERS ************************ HEADERS ************************  HEADERS ************************ -->
 
 <div id="globalNav"> 
-    <div onclick="location.href='index.html';">
+    <div onclick="location.href='article-1-3_riser.html';">
 		<div class="small"><img src="../img-global/vb_headers/375-vb_header_logged-out.png" width="100%" height="auto" alt="VB Header - Logged out"/></div>
 		<div class="medium"><img src="../img-global/vb_headers/600-vb_header_logged-out.png" width="100%" height="auto" alt="VB Header - Logged out"/></div>
 		<div class="large centreImg"><img src="../img-global/vb_headers/980-vb_header_logged-out.png" width="100%" height="auto" alt="VB Header - Logged out"/></div>
 		<div class="x-large centreImg"><img src="../img-global/vb_headers/1200-vb_header_logged-out.png" width="100%" height="auto" alt="VB Header - Logged out"/></div> 
 		<div class="xx-large centreImg"><img src="../img-global/vb_headers/1400-vb_header_logged-out.png" width="1400" height="auto" alt="VB Header - Logged out"/></div> 
 	</div>
- </div>    
+ </div>   
 			
 
   <!-- ************************ ADVERTS ************************ ADVERTS ************************ ADVERTS ************************ -->
@@ -106,10 +106,9 @@ button.on("click", function() {
 		<div class="xx-large centreImg"><img src="../img-global/adverts/vogue-business/vb_advert-land_1.jpg" width="" height="" alt="Advert"/></div>
 	</div>
     
-   
+    
 			
-				
- 	<!-- ************************ FIXED NEWSLETTER SLICE ************************ FIXED NEWSLETTER SLICE ************************ FIXED NEWSLETTER SLICE ************************ -->
+<!-- ************************ FIXED NEWSLETTER SLICE ************************ FIXED NEWSLETTER SLICE ************************ FIXED NEWSLETTER SLICE ************************ -->
 	
     <div class="newsletterSliceFixed">
 		<div class="newsletterForm">
@@ -133,53 +132,24 @@ button.on("click", function() {
 				
 		});
 	 </script>
-	 <!-- // Hide the fixed newsletter slice -->	
-				
-			
+	 <!-- // Hide the fixed newsletter slice -->			
 			
 			
 	
 			
-  <!-- ************************ SECTION PAGE CONTENT ************************ SECTION PAGE CONTENT ************************ SECTION PAGE CONTENT ************************ -->
+  <!-- ************************ ARTICLES ************************ ARTICLES ************************ ARTICLES ************************ -->
 
-  <div id="article" onclick="location.href='article-1-3_riser.html';"> 
-            <div class="small centreImg"><img src="img/section-page/vb_section_375.png" width="100%" height="auto" alt="Section page content"/></div>
-            <div class="medium centreImg"><img src="img/section-page/vb_section_600.png" width="100%" height="auto" alt="Section page content"/></div>
-            <div class="large centreImg"><img src="img/section-page/vb_section_980.png" width="100%" height="auto" alt="Section page content"/></div>
-            <div class="x-large centreImg"><img src="img/section-page/vb_section_1200.png" width="100%" height="auto" alt="Section page content"/></div> 
-	        <div class="xx-large centreImg"><img src="img/section-page/vb_section_1400.png" width="1400" height="auto" alt="Section page content"/></div> 
+  <div id="article" onclick="location.href='article-5_in-page.html';"> 
+            <div class="small centreImg"><img src="img/articles/375_VB_article.jpg" width="100%" height="auto" alt="VB Article"/></div>
+            <div class="medium centreImg"><img src="img/articles/600_VB_article.jpg" width="100%" height="auto" alt="VB Article"/></div>
+            <div class="large centreImg"><img src="img/articles/980_VB_article.jpg" width="100%" height="auto" alt="VB Article"/></div>
+            <div class="x-large centreImg"><img src="img/articles/1200_VB_article.jpg" width="100%" height="auto" alt="VB Article"/></div> 
+	        <div class="xx-large centreImg"><img src="img/articles/1400_VB_article.jpg" width="1400" height="auto" alt="VB Article"/></div> 
  </div>             
 
 			
-	
-<!-- ************************ NEWSLETTER SLICE ************************ NEWSLETTER SLICE ************************ NEWSLETTER SLICE ************************ -->
-	
-      <div class="newsletterSlice">
-		<div class="newsletterForm">
-			<div class="small"><img src="img/newsletter-slice/vb-newsletter-slice_375.png" width="100%" height="auto" alt="VB Newsletter slice"/></div>
-			<div class="medium"><img src="img/newsletter-slice/vb-newsletter-slice_600.png" width="100%" height="auto" alt="VB Newsletter slice"/></div>
-			<div class="large"><img src="img/newsletter-slice/vb-newsletter-slice_980.png" width="100%" height="auto" alt="VB Newsletter slice"/></div>
-			<div class="x-large"><img src="img/newsletter-slice/vb-newsletter-slice_1200.png" width="100%" height="auto" alt="VB Newsletter slice"/></div> 
-			<div class="xx-large"><img src="img/newsletter-slice/vb-newsletter-slice_1400.png" width="1400" height="auto" alt="VB Newsletter slice"/></div> 
-		</div>
-	</div>		
-				
 			
 			
-			
-			
-			
-<!-- ************************ FOOTERS ************************ FOOTERS ************************ FOOTERS ************************ -->
-	
-     <div class="footers">
-		<div class="small"><img src="../img-global/vb_footers/vb_footer_s.png" width="100%" height="auto" alt="VB Footer"/></div>
-		<div class="medium"><img src="../img-global/vb_footers/vb_footer_m.png" width="100%" height="auto" alt="VB Footer"/></div>
-		<div class="large centreImg"><img src="../img-global/vb_footers/vb_footer_l.png" width="100%" height="auto" alt="VB Footer"/></div>
-		<div class="x-large centreImg"><img src="../img-global/vb_footers/vb_footer_xl.png" width="100%" height="auto" alt="VB Footer"/></div> 
-		<div class="xx-large centreImg"><img src="../img-global/vb_footers/vb_footer_xxl.png" width="1400" height="auto" alt="VB Footer"/></div> 
-	</div>
-				
-	
 			
 			
 			
@@ -201,8 +171,8 @@ button.on("click", function() {
 </div><!-- // Container -->
 
 	
-    <script type="text/javascript" src="../js/vogueBusiness_v0.1.js"></script>
 
+   <script type="text/javascript" src="../js/vogueBusiness_v0.1.js"></script>
     
     
 
