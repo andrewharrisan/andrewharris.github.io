@@ -421,14 +421,8 @@ and (min-width : 1400px)  {
 	
 /* Cookie Box Styling */	
 .cookie-box {width: 60%; height: 60%;  left: 20%; top:10%;}	
-	
-	
+		
 } 
-
-
-
-	
-
 
 
 
@@ -557,7 +551,6 @@ input:focus::-webkit-input-placeholder {
     
 }
 
-
 .autocomplete-items {
   position: absolute;
   border:none;
@@ -584,31 +577,12 @@ input:focus::-webkit-input-placeholder {
 }
 
 
-
 a.autoBrand { display: block;
   padding: 20px 50px 20px 38px;
   text-decoration: none;
 }
 
 a.autoBrand:active {color: red;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
