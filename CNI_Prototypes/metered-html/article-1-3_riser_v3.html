@@ -54,9 +54,9 @@ START CONTENT HERE
 			
 			
 	<div class="riserFixedBottom" align="center">
-			<button class="riserButton riserButtonArrow" onclick="riserToggle()"></button>
-			<div class="thinRiserShow thinRiserShowDark"><p class="dark">Enjoy unlimited Vogue Business access. <u>Register for free</u>.</p></div>
-		    <div class="bigRiserHide bg-grey-1">
+			<button class="riserButton riserButtonArrowUp riserButtonArrowDark" onclick="riserToggle()"></button>
+			<div class="thinRiserShow bg-oatmeal"><p class="dark">Enjoy unlimited Vogue Business access. <a href="#">Register for free</a>.</p></div>
+		    <div class="bigRiserHide bg-oatmeal">
 		 		    <img class="small" src="img/risers/s-bigRiser_v3.png" width="auto" height="auto" alt="VB Reg Riser"/> 
 					<img class="medium" src="img/risers/m-bigRiser_v3.png" width="auto" height="auto" alt="VB Reg Riser"/> 
 					<img class="large" src="img/risers/l-bigRiser_v3.png" width="auto" height="auto" alt="VB Reg Riser"/> 
@@ -67,17 +67,18 @@ START CONTENT HERE
 	
 			
 	<script>		
-	  var button 	 = $(".riserButton");
-	  var buttonArrow = $(".riserButtonArrow");
-	  var thinRiser  = $(".thinRiserShow");
-	  var bigRiser    = $(".bigRiserHide");
+	  var button 	     = $(".riserButton");
+	  var buttonArrowDir = $(".riserButtonArrowUp");		
+//    var buttonArrowCol = $(".riserButtonArrowDark");
+	  var thinRiser      = $(".thinRiserShow");
+	  var bigRiser       = $(".bigRiserHide");
 	
 button.on("click", function() {
 	"use strict";
- // thinRiser.toggleClass("riserShow").addClass("riserHide");
-	buttonArrow.toggleClass("riserButtonArrowUp");
-    thinRiser.toggleClass("thinRiserHide");
-	bigRiser.toggleClass("bigRiserShow");
+	buttonArrowDir.toggleClass("riserButtonArrowDown").toggleClass("riserButtonArrowUp");
+//	buttonArrowCol.toggleClass("riserButtonArrowLight");
+    thinRiser.toggleClass("thinRiserHide").toggleClass("thinRiserShow");
+	bigRiser.toggleClass("bigRiserShow").toggleClass("bigRiserHide");
 	
 });
 </script>

@@ -7,6 +7,7 @@
 Cookie message block: 401;
 Modal overlay: 400;
 Risers: 300;
+Riser p: 300;
 Riser Arrow: 301;
 Fixed Newsletter dismiss button: 201;
 Fixed Newsletter slice: 200;
@@ -147,6 +148,12 @@ p 	  {font-size: 14px; line-height: 18px; margin-bottom: 8px;}
 
 .cookie-box button {font-size: 18px; line-height: 24px; text-transform: uppercase;}
 
+
+/* ----------------- Links  ----------- */
+
+p.white a {color: #FFFFFF; text-decoration: underline;}
+p.dark a {color: #2D2E2F; text-decoration: underline;}
+
 /* ----------------- Header  ----------- */
 
 
@@ -190,21 +197,25 @@ p 	  {font-size: 14px; line-height: 18px; margin-bottom: 8px;}
 .riserFixedBottom   {position: fixed; z-index: 300; bottom: 0; display: inline-block; width: 100%;}
 
 .riserButton 	    {width: 56px; height: 56px; position: absolute; right: 0px !important;  float: right; z-index: 301; cursor: pointer;}
-.riserButtonArrow   {background: url("../img-global/furniture/up-down-arrow.png") no-repeat center center; background-size: 14px 8px; border: none!important; z-index: 301;}
-.riserButtonArrowDark   {background: url("../img-global/furniture/up-down-arrow_dark.png") no-repeat center center; background-size: 14px 8px; border: none!important; z-index: 301;}
-.riserButtonArrowUp {transform: rotate(180deg);}
+
+.riserButtonArrowLight  {background: url("../img-global/furniture/up-down-arrow.png") no-repeat center center !important; background-size: 14px 8px !important; border: none!important; z-index: 301;}
+.riserButtonArrowDark   {background: url("../img-global/furniture/up-down-arrow_dark.png") no-repeat center center !important; background-size: 14px 8px  !important; border: none!important; z-index: 301;}
+
+.riserButtonArrowDown {transform: rotate(180deg) !important;}
+.riserButtonArrowUp {transform: rotate(0deg) !important;}
 
 
-.thinRiserHide   {height: 0px !important; line-height: 0 !important; display: none !important; transition: all 0.25s ease;}
-.thinRiserShow   {height: 56px !important; display: block; text-align: left; margin-bottom: 0px; transition: all 0.5s ease; background-color: #6C6E70;}
+.thinRiserShow   {height: 56px !important; margin-bottom: 0px !important;}
+.thinRiserShow p {width: 100%; text-align: center;}
 
-.thinRiserShowDark   {background-color: #2D2E2F !important; color: #FFFFFF !important;}
-.thinRiserShowOatmeal {background-color: #F0EDE4 !important; color: #2D2E2F !important;}
 
-.bigRiserHide   {transition: all 0.25s ease;}
-.bigRiserShow   {transition: all 0.25s ease; z-index: 300; display: block;  text-align: left; background-color: #2D2E2F;}
+.thinRiserShow   {display: block; transition: all 2.5s ease !important; }
+.thinRiserHide   {display: none; transition: all 2.5s ease !important; }
 
-.thinRiserShow p {width: 95%; text-align: center; font-weight: bold;}
+.bigRiserShow   {display: block; transition: all 2.5s ease !important; }
+.bigRiserHide   {display: none; transition: all 2.5s ease !important; }
+
+
 
 
 
@@ -223,7 +234,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 
 /* Prompts Globals */
-.prompts { background-color: #ffffff; text-align: center; margin-bottom: 40px;}
+.prompts { background-color: #ffffff; margin-bottom: 40px;}
 
 
 
@@ -258,7 +269,8 @@ and (max-width : 599px) {
 .medium, .large, .x-large, .xx-large  {display: none;}
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 12px 70px 12px 18px;}		
+.thinRiserShow {text-align: left !important;}
+.thinRiserShow p  {padding: 16px 0px 10px 18px !important; text-align: left; width: 80%; line-height: 16px;}		
 	
 .bigRiserHide     {height: 280px; margin-bottom: -280px;}	
 .bigRiserShow     {height: 280px; margin-bottom: 0px; align-content: center !important;}	
@@ -294,20 +306,20 @@ and (max-width : 979px) {
 .small, .large, .x-large, .xx-large {display: none;}
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 20px 70px 12px 18px;}		
+.thinRiserShow p  {padding: 16px 18px 12px 18px;}		
 	
 .bigRiserHide     {height: 272px; margin-bottom: -272px;}
 .bigRiserShow     {height: 272px; margin-bottom: 0px;}	
 .bigRiserShow img {width: 600px !important;}
 
 /* Cut content for prompt */	
-.articleCutOff {height: 20%; overflow: hidden;}	
+.articleCutOff {height: 20%; overflow: hidden;}	 
 
 	
 /* Prompt */
 .articleCutOff {height: 1600px; overflow: hidden;}	
 .gradient 	   {text-align: left; padding-left: 3%; width: 97%;}	
-.prompts 	   {text-align: left; padding-left: 10%;}	
+.prompts 	   {text-align: center;}	
 	
 	
 /* Cookie Box Styling */	
@@ -329,7 +341,7 @@ and (max-width : 1199px) {
 
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 20px 70px 12px 40px;}		
+.thinRiserShow p  {padding: 16px 40px 12px 40px;}		
 
 .bigRiserHide     {height: 272px; margin-bottom: -272px;}
 .bigRiserShow     {height: 272px; margin-bottom: 0px;}
@@ -366,7 +378,7 @@ and (max-width : 1399px) {
 
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 20px 70px 12px 60px;}		
+.thinRiserShow p  {padding: 16px 60px 12px 60px;}		
 	
 .bigRiserHide     {height: 288px; margin-bottom: -288px;}
 .bigRiserShow     {height: 288px; margin-bottom: 0px;}
@@ -403,7 +415,6 @@ and (min-width : 1400px)  {
 	
 	
 /* Riser Styling */	
-/* .riserFixedBottom {width: 1400px; left: 50%; transform: translate(-50%, 0);} */
 .riserFixedBottom {width: 100%;}
 
 
@@ -411,7 +422,7 @@ and (min-width : 1400px)  {
 .bigRiserShow     {height: 288px; margin-bottom: 0px;}
 
 
-.thinRiserShow p  {padding: 20px 70px 12px 70px;}		
+.thinRiserShow p  {padding: 16px 70px 12px 70px;}		
 .bigRiserShow img {width: 1400px !important;}
 	
 	

@@ -51,12 +51,11 @@ START CONTENT HERE
 
 			
   <!-- ************************ RISER ************************ RISER ************************ RISER ************************ -->
-			
-			
+				
 	<div class="riserFixedBottom" align="center">
-			<button class="riserButton riserButtonArrow riserButtonArrowUp" onclick="riserToggle()"></button>
-			<div class="thinRiserHide thinRiserShowDark"><p class="dark">Enjoy unlimited Vogue Business access. <u>Register for free</u>.</p></div>
-		    <div class="bigRiserShow bg-grey-1">
+			<button class="riserButton riserButtonArrowDown riserButtonArrowDark" onclick="riserToggle()"></button>
+			<div class="thinRiserHide bg-oatmeal"><p class="dark">Enjoy unlimited Vogue Business access. <u>Register for free</u>.</p></div>
+		    <div class="bigRiserShow bg-oatmeal">
 		 		    <img class="small" src="img/risers/s-bigRiser_v3.png" width="auto" height="auto" alt="VB Reg Riser"/> 
 					<img class="medium" src="img/risers/m-bigRiser_v3.png" width="auto" height="auto" alt="VB Reg Riser"/> 
 					<img class="large" src="img/risers/l-bigRiser_v3.png" width="auto" height="auto" alt="VB Reg Riser"/> 
@@ -67,20 +66,24 @@ START CONTENT HERE
 	
 			
 	<script>		
-	  var button 	 = $(".riserButton");
-	  var buttonArrow = $(".riserButtonArrow");
-	  var thinRiser  = $(".thinRiserHide");
-	  var bigRiser    = $(".bigRiserShow");
+	  var button 	     = $(".riserButton");
+	  var buttonArrowDir = $(".riserButtonArrowDown");		
+//    var buttonArrowCol = $(".riserButtonArrowDark");
+	  var thinRiser      = $(".thinRiserHide");
+	  var bigRiser       = $(".bigRiserShow");
 	
 button.on("click", function() {
 	"use strict";
- // thinRiser.toggleClass("riserShow").addClass("riserHide");
-	buttonArrow.toggleClass("riserButtonArrowUp");
+	buttonArrowDir.toggleClass("riserButtonArrowDown").toggleClass("riserButtonArrowUp");
+//	buttonArrowCol.toggleClass("riserButtonArrowLight");
     thinRiser.toggleClass("thinRiserShow").toggleClass("thinRiserHide");
 	bigRiser.toggleClass("bigRiserHide").toggleClass("bigRiserShow");
+	
 });
 </script>
-<!-- // Metered Riser Fixed to Bottom of page -->				
+<!-- // Metered Riser Fixed to Bottom of page -->					
+			
+			
 			
 			
 			
