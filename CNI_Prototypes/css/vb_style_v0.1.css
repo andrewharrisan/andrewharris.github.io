@@ -206,7 +206,7 @@ p.dark a {color: #2D2E2F; text-decoration: underline;}
 
 
 .thinRiserShow   {height: 56px !important; margin-bottom: 0px !important;}
-.thinRiserShow p {width: 100%; text-align: center;}
+.thinRiserShow p {width: 100%; text-align: left;}
 
 
 .thinRiserShow   {display: block; transition: all 2.5s ease !important; }
@@ -270,7 +270,7 @@ and (max-width : 599px) {
 	
 /* Riser Styling */	
 .thinRiserShow {text-align: left !important;}
-.thinRiserShow p  {padding: 16px 0px 10px 18px !important; text-align: left; width: 80%; line-height: 16px;}		
+.thinRiserShow p  {padding: 18px 0px 10px 18px !important; text-align: left; width: 80%; font-size: 14px; line-height: 16px;}		
 	
 .bigRiserHide     {height: 280px; margin-bottom: -280px;}	
 .bigRiserShow     {height: 280px; margin-bottom: 0px; align-content: center !important;}	
@@ -306,7 +306,7 @@ and (max-width : 979px) {
 .small, .large, .x-large, .xx-large {display: none;}
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 16px 18px 12px 18px;}		
+.thinRiserShow p  {padding: 18px 70px 12px 24px; font-size: 16px;}		
 	
 .bigRiserHide     {height: 272px; margin-bottom: -272px;}
 .bigRiserShow     {height: 272px; margin-bottom: 0px;}	
@@ -341,7 +341,7 @@ and (max-width : 1199px) {
 
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 16px 40px 12px 40px;}		
+.thinRiserShow p  {padding: 18px 70px 12px 24px; font-size: 16px;}		
 
 .bigRiserHide     {height: 272px; margin-bottom: -272px;}
 .bigRiserShow     {height: 272px; margin-bottom: 0px;}
@@ -378,7 +378,7 @@ and (max-width : 1399px) {
 
 	
 /* Riser Styling */	
-.thinRiserShow p  {padding: 16px 60px 12px 60px;}		
+.thinRiserShow p  {padding: 18px 70px 12px 32px; font-size: 16px;}		
 	
 .bigRiserHide     {height: 288px; margin-bottom: -288px;}
 .bigRiserShow     {height: 288px; margin-bottom: 0px;}
@@ -422,7 +422,7 @@ and (min-width : 1400px)  {
 .bigRiserShow     {height: 288px; margin-bottom: 0px;}
 
 
-.thinRiserShow p  {padding: 16px 70px 12px 70px;}		
+.thinRiserShow p  {padding: 18px 70px 12px 32px; font-size: 16px;}		
 .bigRiserShow img {width: 1400px !important;}
 	
 	
