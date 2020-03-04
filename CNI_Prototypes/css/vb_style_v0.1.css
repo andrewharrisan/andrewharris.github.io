@@ -270,8 +270,8 @@ and (max-width : 599px) {
 .thinRiserShow    {text-align: left !important;}
 .thinRiserShow p  {padding: 12px 0px 12px 12px !important; margin: 0!important; text-align: left; vertical-align: middle !important; width: 80%; font-size: 14px !important; line-height: 16px;}		
 	
-.bigRiserHide     {height: 280px; margin-bottom: -280px;}	
-.bigRiserShow     {height: 280px; margin-bottom: 0px; align-content: center !important;}	
+.bigRiserHide     {height: 296px; margin-bottom: -296px;}	
+.bigRiserShow     {height: 296px; margin-bottom: 0px; align-content: center !important;}	
 .bigRiserShow img {width: 375px !important;}
 
 	
@@ -306,8 +306,8 @@ and (max-width : 979px) {
 /* Riser Styling */	
 .thinRiserShow p  {padding: 18px 70px 12px 24px; font-size: 16px;}		
 	
-.bigRiserHide     {height: 272px; margin-bottom: -272px;}
-.bigRiserShow     {height: 272px; margin-bottom: 0px;}	
+.bigRiserHide     {height: 296px; margin-bottom: -296px;}
+.bigRiserShow     {height: 296px; margin-bottom: 0px;}	
 .bigRiserShow img {width: 600px !important;}
 
 /* Cut content for prompt */	
@@ -341,8 +341,8 @@ and (max-width : 1199px) {
 /* Riser Styling */	
 .thinRiserShow p  {padding: 18px 70px 12px 24px; font-size: 16px;}		
 
-.bigRiserHide     {height: 288px; margin-bottom: -288px;}
-.bigRiserShow     {height: 288px; margin-bottom: 0px;}
+.bigRiserHide     {height: 296px; margin-bottom: -296px;}
+.bigRiserShow     {height: 296px; margin-bottom: 0px; vertical-align: top;}
 .bigRiserShow img {width: 980px !important;}
 
 	
