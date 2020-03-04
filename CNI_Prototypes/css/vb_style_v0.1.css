@@ -270,7 +270,7 @@ and (max-width : 599px) {
 	
 /* Riser Styling */	
 .thinRiserShow {text-align: left !important;}
-.thinRiserShow p  {padding: 18px 0px 10px 18px !important; text-align: left; width: 80%; font-size: 14px; line-height: 16px;}		
+.thinRiserShow p  {padding: 8px 0px 10px 12px !important; text-align: left; width: 80%; font-size: 13px; line-height: 16px;}		
 	
 .bigRiserHide     {height: 280px; margin-bottom: -280px;}	
 .bigRiserShow     {height: 280px; margin-bottom: 0px; align-content: center !important;}	
