@@ -205,15 +205,11 @@ p.dark a {color: #2D2E2F; text-decoration: underline;}
 .riserButtonArrowUp {transform: rotate(0deg) !important;}
 
 
-.thinRiserShow   {height: 56px !important; margin-bottom: 0px !important;}
+.thinRiserShow   {height: 56px;}
 .thinRiserShow p {width: 100%; text-align: left;}
 
-
-.thinRiserShow   {display: block; transition: all 2.5s ease !important; }
-.thinRiserHide   {display: none; transition: all 2.5s ease !important; }
-
-.bigRiserShow   {display: block; transition: all 2.5s ease !important; }
-.bigRiserHide   {display: none; transition: all 2.5s ease !important; }
+.thinRiserShow, .bigRiserShow    {display: block; transition: all 1.0s ease !important; }
+.thinRiserHide, .bigRiserHide    {display: none; transition: all 1.0s ease !important; }
 
 
 
@@ -419,7 +415,7 @@ and (min-width : 1400px)  {
 
 
 .bigRiserHide     {height: 288px; margin-bottom: -288px;}	
-.bigRiserShow     {height: 288px; margin-bottom: 0px;}
+.bigRiserShow     {height: 288px; margin-bottom: 0px; }
 
 
 .thinRiserShow p  {padding: 18px 70px 12px 32px; font-size: 16px;}		
