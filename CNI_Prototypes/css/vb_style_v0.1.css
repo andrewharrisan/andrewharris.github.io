@@ -269,8 +269,8 @@ and (max-width : 599px) {
 .medium, .large, .x-large, .xx-large  {display: none;}
 	
 /* Riser Styling */	
-.thinRiserShow {text-align: left !important;}
-.thinRiserShow p  {padding: 12px 0px 12px 12px !important; margin: 0!important; text-align: left; width: 80%; font-size: 14px !important; line-height: 16px;}		
+.thinRiserShow    {text-align: left !important;}
+.thinRiserShow p  {padding: 12px 0px 12px 12px !important; margin: 0!important; text-align: left; vertical-align: middle !important; width: 80%; font-size: 14px !important; line-height: 16px;}		
 	
 .bigRiserHide     {height: 280px; margin-bottom: -280px;}	
 .bigRiserShow     {height: 280px; margin-bottom: 0px; align-content: center !important;}	
