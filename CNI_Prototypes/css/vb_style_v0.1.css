@@ -208,7 +208,9 @@ p.dark a {color: #2D2E2F; text-decoration: underline;}
 .thinRiserShow   {height: 56px;}
 .thinRiserShow p {width: 100%; text-align: left;}
 
-.bigRiserShow {height: 296px;}
+
+.bigRiserShow     {height: 296px; margin-bottom: 0px; align-content: center !important;}	
+.bigRiserHide     {height: 296px; margin-bottom: -296px;}	
 
 .thinRiserShow, .bigRiserShow    {display: block; transition: all 0.5s ease !important; }
 .thinRiserHide, .bigRiserHide    {display: none; transition: all 0.5s ease !important; }
@@ -268,10 +270,8 @@ and (max-width : 599px) {
 	
 /* Riser Styling */	
 .thinRiserShow    {text-align: left !important;}
-.thinRiserShow p  {padding: 12px 0px 12px 12px !important; margin: 0!important; text-align: left; vertical-align: middle !important; width: 80%; font-size: 14px !important; line-height: 16px;}		
+.thinRiserShow p  {padding: 18px 0px 18px 12px !important; margin: 0!important; text-align: left; vertical-align: middle !important; width: 90%; font-size: 12px !important; line-height: 16px;}		
 	
-.bigRiserHide     {height: 296px; margin-bottom: -296px;}	
-.bigRiserShow     {height: 296px; margin-bottom: 0px; align-content: center !important;}	
 .bigRiserShow img {width: 375px !important;}
 
 	
@@ -305,9 +305,7 @@ and (max-width : 979px) {
 	
 /* Riser Styling */	
 .thinRiserShow p  {padding: 18px 70px 12px 24px; font-size: 16px;}		
-	
-.bigRiserHide     {height: 296px; margin-bottom: -296px;}
-.bigRiserShow     {height: 296px; margin-bottom: 0px;}	
+
 .bigRiserShow img {width: 600px !important;}
 
 /* Cut content for prompt */	
@@ -341,8 +339,6 @@ and (max-width : 1199px) {
 /* Riser Styling */	
 .thinRiserShow p  {padding: 18px 70px 12px 24px; font-size: 16px;}		
 
-.bigRiserHide     {height: 296px; margin-bottom: -296px;}
-.bigRiserShow     {height: 296px; margin-bottom: 0px; vertical-align: top;}
 .bigRiserShow img {width: 980px !important;}
 
 	
@@ -378,8 +374,6 @@ and (max-width : 1399px) {
 /* Riser Styling */	
 .thinRiserShow p  {padding: 18px 70px 12px 32px; font-size: 16px;}		
 	
-.bigRiserHide     {height: 296px; margin-bottom: -296px;}
-.bigRiserShow     {height: 296px; margin-bottom: 0px;}
 .bigRiserShow img {width: 1200px !important;}	
 	
 	
@@ -414,11 +408,6 @@ and (min-width : 1400px)  {
 	
 /* Riser Styling */	
 .riserFixedBottom {width: 100%;}
-
-
-.bigRiserHide     {height: 296px; margin-bottom: -296px;}	
-.bigRiserShow     {height: 296px; margin-bottom: 0px; }
-
 
 .thinRiserShow p  {padding: 18px 70px 12px 32px; font-size: 16px;}		
 .bigRiserShow img {width: 1400px !important;}
